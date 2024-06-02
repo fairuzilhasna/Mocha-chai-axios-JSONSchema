@@ -100,6 +100,9 @@ export const usersSchema = {
                     role: {type: 'string'}
                 }
             }
-        }
+        },
+        total: {type: 'number'},
+        skip: {type: 'number'},
+        limit: {type: 'number'}
     }
 }
